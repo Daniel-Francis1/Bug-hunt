@@ -1,5 +1,4 @@
-def greet(name):
-    """Return a friendly greeting."""
+def greet(name=""):
     if name:
-    return f"Hello, {name}!"
+        return f"Hello, {name}!"
     return "Hello, there!"
